@@ -1,7 +1,10 @@
 import React from 'react'
+import '../styles/componente.css'
 
 export const Componente = () => {
   return (
-    <div>Mi primer componente</div>
+    <section className='section'>
+        <h1 className='title'>Mi primer componente</h1>
+    </section>
   )
 }
