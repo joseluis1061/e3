@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# Mi Primera App en React para Práctica Git/GitHub - SENA
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto es una aplicación React muy básica creada con el propósito de practicar el uso de repositorios Git y la plataforma GitHub.
 
-## Available Scripts
+## Descripción
 
-In the project directory, you can run:
+La aplicación consiste en una página simple que muestra el texto "Mi primera app". Fue desarrollada como un ejercicio práctico para entender el flujo de trabajo de Git (control de versiones) y GitHub (plataforma de colaboración y alojamiento de repositorios).
 
-### `npm start`
+## Tecnologías Utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* **React:** Biblioteca de JavaScript para construir interfaces de usuario.
+* **CSS:** Para estilos básicos (se incluye un normalizador y la fuente Poppins).
+* **Git:** Sistema de control de versiones distribuido.
+* **GitHub:** Plataforma de alojamiento para repositorios Git.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Instrucciones (Propósito de la Práctica)
 
-### `npm test`
+El objetivo principal de este proyecto es practicar las siguientes acciones de Git y GitHub:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1.  **Inicialización de un repositorio Git:** Usando el comando `git init`.
+2.  **Realización de commits:** Guardando cambios en el repositorio con `git commit`.
+3.  **Creación de un repositorio remoto en GitHub.**
+4.  **Vinculación del repositorio local con el remoto:** Usando `git remote add origin <URL_del_repositorio>`.
+5.  **Envío de commits al repositorio remoto:** Usando `git push origin <rama>`.
+6.  **Realización de cambios adicionales y envío de nuevas versiones.**
+7.  (Opcional) **Exploración de ramas (`branches`) y pull requests.**
 
-### `npm run build`
+## Cómo Ejecutar (Si deseas ver la app localmente)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Aunque el foco principal es la práctica de Git/GitHub, si deseas ejecutar la aplicación localmente, asegúrate de tener Node.js y npm (o yarn) instalados. Luego, sigue estos pasos:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1.  **Clona el repositorio:** `git clone <URL_del_repositorio>`
+2.  **Navega al directorio del proyecto:** `cd <nombre_del_proyecto>`
+3.  **Instala las dependencias:** `npm install` o `yarn install`
+4.  **Inicia la aplicación:** `npm start` o `yarn start`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Esto iniciará la aplicación en un servidor de desarrollo local (generalmente en `http://localhost:3000`).
 
-### `npm run eject`
+## Notas Adicionales
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Este es un proyecto muy simple, diseñado específicamente para la práctica de Git y GitHub en el contexto de la formación del SENA. No se espera una funcionalidad compleja.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+¡Espero que esta práctica sea útil para tu aprendizaje!
