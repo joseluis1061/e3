@@ -39,5 +39,3 @@ Esto iniciará la aplicación en un servidor de desarrollo local (generalmente e
 ## Notas Adicionales
 
 Este es un proyecto muy simple, diseñado específicamente para la práctica de Git y GitHub en el contexto de la formación del SENA. No se espera una funcionalidad compleja.
-
-¡Espero que esta práctica sea útil para tu aprendizaje!
